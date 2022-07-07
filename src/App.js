@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Holiday from "./Components/Holiday/Holiday";
+import Hooray from "./Components/Hooray/Hooray";
+import Refresh from "./Components/Refresh/Refresh";
+import Summer from "./Components/Summer/Summer";
+import Text from "./Components/Text/Text";
+import Uber from "./Components/Uber/Uber";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="flex flex-col gap-y-8">
+        <Header/>
+        <Summer/>
+        <Holiday/>
+        <Refresh/>
+        <Hooray/>
+        <Uber/>
+        <Text/>
+        <Footer/>
+      </div>
+    </>
   );
 }
 
