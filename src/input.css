@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+}
+
+.menus{
+    transition: 400ms ease-in-out;
+}

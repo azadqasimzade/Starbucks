@@ -1,0 +1,126 @@
+[
+    {
+        "id":0,
+        "title":"About Us",
+        "links":[
+            {
+                "title":"Our Company",
+                "url":"/"
+            },
+            {
+                "title":"Our Coffee",
+                "url":"/"
+            },
+            {
+                "title":"Stories and News",
+                "url":"/"
+            },
+            {
+                "title":"Starbucks Archive",
+                "url":"/"
+            },
+            {
+                "title":"Investor Relations",
+                "url":"/"
+            },
+            {
+                "title":"Customer Service",
+                "url":"/"
+            }
+        ]
+    },
+    {
+        "id":1,
+        "title":"Careers",
+        "links":[
+            {
+                "title":"Culture and Values",
+                "url":"/"
+            },
+            {
+                "title":"Inclusion, Diversity, and Equity",
+                "url":"/"
+            },
+            {
+                "title":"College Achievement Plan",
+                "url":"/"
+            },
+            {
+                "title":"Alumni Community",
+                "url":"/"
+            },
+            {
+                "title":"U.S. Careers",
+                "url":"/"
+            },
+            {
+                "title":"International Careers",
+                "url":"/"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "title":"Social Impact",
+        "links":[
+            {
+                "title":"People",
+                "url":"/"
+            },
+            {
+                "title":"Planet",
+                "url":"/"
+            },
+            {
+                "title":"Environmental and Social Impact Reporting",
+                "url":"/"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "title":"For Business Partners",
+        "links":[
+            {
+                "title":"Landlord Support Center",
+                "url":"/"
+            },
+            {
+                "title":"Corporate Gift Card Sales",
+                "url":"/"
+            },
+            {
+                "title":"Office and Foodservice Coffee",
+                "url":"/"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "title":"Order and Pickup",
+        "links":[
+            {
+                "title":"Order on the App",
+                "url":"/"
+            },
+            {
+                "title":"Order on the Web",
+                "url":"/"
+            },
+            {
+                "title":"Delivery",
+                "url":"/"
+            }
+            ,
+            {
+                "title":"Order and Pickup Options",
+                "url":"/"
+            }
+            ,
+            {
+                "title":"Explore and Find Coffee for Home",
+                "url":"/"
+            }
+        ]
+    }
+]
