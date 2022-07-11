@@ -1,9 +1,8 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import {MdLocationOn} from 'react-icons/md'
 import {BsList} from 'react-icons/bs'
 import { useWindowWidth } from '@react-hook/window-size';
 import {IoIosArrowForward,IoMdClose,IoIosArrowBack} from 'react-icons/io'
-import { useEffect } from 'react';
 
 const Header = () => {
     const[show, setShow] = useState(true)
@@ -16,7 +15,7 @@ const Header = () => {
             document.body.style.overflowX="hidden"
         }
     }, [windowWidth])
-
+    
     const toggleBurger = () =>{
         setShow(!show)
         if(show){
@@ -82,7 +81,7 @@ const Header = () => {
         {
                     windowWidth <=1024 && (
                     <>
-                    <div className={`${show ? 'translate-x-[100%]' : 'translate-x-0'} bg-white w-3/4 absolute h-full right-0 px-8 py-10 top-[72px] z-20 menus`}>
+                    <div className={`${show ? 'hidden' : 'block'} bg-white absolute w-3/4 right-0 h-full px-8 py-10 top-[72px] z-20 menus`}>
                         <nav>
                             <ul className='flex flex-col gap-y-6 text-lg tracking-widest w-full'>
                                 <li className='hover:text-hover-color flex cursor-pointer' onClick={toggleMenu}>
@@ -109,7 +108,7 @@ const Header = () => {
                                 Find a store
                             </a>
                         </div>
-                        <div className={`${!menu ? 'translate-x-[100%]' : 'translate-x-0'} bg-white absolute inset-0 z-20 menus`}>
+                        <div className={`${!menu ? 'hidden' : 'block'} bg-white absolute inset-0 z-20 menus`}>
                             <nav>
                                 <ul className='flex flex-col gap-y-5'>
                                     <li className='w-full flex items-center bg-gray-50 py-4 cursor-pointer' onClick={toggleMenu}>
@@ -131,7 +130,7 @@ const Header = () => {
                                 </ul>
                             </nav>
                         </div>
-                    </div>                    
+                    </div>
                     </>
                     )
                 }

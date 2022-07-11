@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .ReactCollapse--collapse {
     transition: height 500ms;
 }
 
-.menus{
+/* .menus{
     transition: 400ms ease-in-out;
-}
+} */
